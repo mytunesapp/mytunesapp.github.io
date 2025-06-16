@@ -5,6 +5,14 @@
 theme = "hugo-story"
 
 ## -----------------------------------------------
+## Caches
+## -----------------------------------------------
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+## -----------------------------------------------
 ## Publish
 ## -----------------------------------------------
 
@@ -16,7 +24,7 @@ baseURL = "/"
 publishDir = "public"
 
 # Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+#baseURL = "https://mytunesapp.github.io/"
 #publishDir = "//centos/sites/hugodev/hugostory/"
 
 
